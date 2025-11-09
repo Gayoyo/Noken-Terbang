@@ -52,6 +52,9 @@ Menghubungkan ke API eksternal (misal: API Cuaca).
 
 Mensimulasikan perubahan rute berdasarkan data cuaca atau hambatan real-time.
 
+📸 Preview
+[![Tampilan Peta Drone](https://github.com/Gayoyo/-Noken-Terbang/blob/main/public/Preview.png?raw=true)](https://gayoyo.github.io/Noken-Terbang/)
+
 🛠️ Teknologi yang Digunakan
 
 TeknologiDeskripsi⚛️ React.jsFramework utama untuk membangun antarmuka peta🗺️ Leaflet.jsLibrary peta open-source untuk visualisasi geospasial🚀 gh-pagesUntuk melakukan deployment otomatis ke GitHub Pages💻 JavaScript (ES6)Bahasa utama pengembangan logika aplikasi🎨 CSS3Untuk tampilan antarmuka yang bersih dan modern📦 Cara Menjalankan Proyek di Lokal 
@@ -69,9 +72,7 @@ npm install
 # Jalankan proyek secara lokal
 npm start
 
-📸 Preview
 
-Tampilan peta drone:public/Preview.png
 
 🧭 Visi Proyek
 Menjadi solusi pemetaan berbasis drone yang bisa digunakan untuk:
