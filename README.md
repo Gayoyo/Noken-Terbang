@@ -1,8 +1,7 @@
 🛰️ Noken Terbang Map
 
-Noken Terbang Map adalah proyek visualisasi peta interaktif yang menampilkan jalur dan area operasi drone di wilayah pedalaman Papua.
+Noken Terbang Map adalah proyek visualisasi peta interaktif yang menampilkan jalur dan area operasi drone di wilayah pedalaman Papua. Aplikasi ini dirancang untuk membantu pemetaan, perencanaan rute pengiriman udara, dan eksplorasi wilayah menggunakan antarmuka berbasis peta yang intuitif dan futuristik.
 
-Aplikasi ini dirancang untuk membantu pemetaan, perencanaan rute pengiriman udara, dan eksplorasi wilayah menggunakan antarmuka berbasis peta yang intuitif dan futuristik.
 
 🌐 Live Demo: Noken Terbang Map (https://gayoyo.github.io/Noken-Terbang/) 
 
