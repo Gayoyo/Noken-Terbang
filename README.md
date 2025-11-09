@@ -71,7 +71,7 @@ npm start
 
 📸 Preview
 
-Tampilan peta drone:
+Tampilan peta drone:public/Preview.png
 
 🧭 Visi Proyek
 Menjadi solusi pemetaan berbasis drone yang bisa digunakan untuk:
