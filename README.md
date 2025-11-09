@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+🛰️ Noken Terbang Map
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Noken Terbang Map adalah proyek visualisasi peta interaktif yang menampilkan jalur dan area operasi drone di wilayah pedalaman Papua.
 
-## Available Scripts
+Aplikasi ini dirancang untuk membantu pemetaan, perencanaan rute pengiriman udara, dan eksplorasi wilayah menggunakan antarmuka berbasis peta yang intuitif dan futuristik.
 
-In the project directory, you can run:
+🌐 Live Demo: Noken Terbang Map (https://gayoyo.github.io/Noken-Terbang/) 
 
-### `npm start`
+🚀 Fitur Utama
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🗺️ Peta Interaktif: Menampilkan wilayah dengan marker dan layer yang mudah dinavigasi.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✈️ Simulasi Jalur Drone: Menunjukkan jalur potensial untuk pengiriman atau survei.
 
-### `npm test`
+🌍 Zoom & Navigasi Dinamis: Pengguna dapat memperbesar, memperkecil, dan menjelajah area dengan mudah.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+💡 Desain Minimalis: Tampilan bersih dengan fokus pada pengalaman pengguna dan visualisasi data geografis.
 
-### `npm run build`
+🧠 Konsep Proyek
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+"Membawa inovasi teknologi drone untuk membantu konektivitas wilayah terpencil di Papua.” 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Proyek ini menggambarkan konsep drone transportasi ringan yang mampu mengantarkan kebutuhan logistik kecil menggunakan sistem pemetaan digital. Ini adalah langkah awal menuju software tower control terpusat.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🗺️ Roadmap Masa Depan
 
-### `npm run eject`
+Proyek ini akan dikembangkan secara bertahap:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[ ✅ ] Tahap 1: Visualisasi (Selesai)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Render peta interaktif (Leaflet).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Menampilkan jalur dan marker statis.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Deployment ke GitHub Pages.
 
-## Learn More
+[ 🔲 ] Tahap 2: Simulasi Dinamis
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Membuat marker drone bergerak di sepanjang jalur yang ditentukan.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Menambahkan dashboard sederhana (status drone, ketinggian, kecepatan).
 
-### Code Splitting
+[ 🔲 ] Tahap 3: AI Pathfinding
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Integrasi algoritma routing (seperti A* atau Dijkstra).
 
-### Analyzing the Bundle Size
+Membuat backend sederhana untuk menghitung rute terpendek/teraman (menghindari zona merah) secara otomatis.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[ 🔲 ] Tahap 4: Integrasi Data Real-time
 
-### Making a Progressive Web App
+Menghubungkan ke API eksternal (misal: API Cuaca).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Mensimulasikan perubahan rute berdasarkan data cuaca atau hambatan real-time.
 
-### Advanced Configuration
+🛠️ Teknologi yang Digunakan
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+TeknologiDeskripsi⚛️ React.jsFramework utama untuk membangun antarmuka peta🗺️ Leaflet.jsLibrary peta open-source untuk visualisasi geospasial🚀 gh-pagesUntuk melakukan deployment otomatis ke GitHub Pages💻 JavaScript (ES6)Bahasa utama pengembangan logika aplikasi🎨 CSS3Untuk tampilan antarmuka yang bersih dan modern📦 Cara Menjalankan Proyek di Lokal 
 
-### Deployment
+```bash
+# Clone repository
+git clone https://github.com/Gayoyo/-Noken-Terbang.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# Masuk ke folder proyek
+cd noken-terbang-map
 
-### `npm run build` fails to minify
+# Install dependencies
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Jalankan proyek secara lokal
+npm start
+
+📸 Preview
+
+Tampilan peta drone:
+
+🧭 Visi Proyek
+Menjadi solusi pemetaan berbasis drone yang bisa digunakan untuk:
+Distribusi logistik pedalaman
+Pemetaan wilayah non-terjangkau
+Dukungan transportasi udara masa depan  depan
+
+👤 Author
+Made by Gayoyo
+💬 “Teknologi yang terbang dari ide — menuju kenyataan.”
+
+📜 Lisensi
+Proyek ini bersifat Open Source dan bebas digunakan untuk keperluan pendidikan atau riset.
+Lisensi: LICENSE
