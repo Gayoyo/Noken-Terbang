@@ -6,6 +6,12 @@ Aplikasi ini dirancang untuk membantu pemetaan, perencanaan rute pengiriman udar
 
 🌐 Live Demo: Noken Terbang Map (https://gayoyo.github.io/Noken-Terbang/) 
 
+📸 Preview
+
+[![Tampilan Peta Drone](https://github.com/Gayoyo/-Noken-Terbang/blob/main/public/Preview.png?raw=true)](https://gayoyo.github.io/Noken-Terbang/)
+
+
+
 🚀 Fitur Utama
 
 🗺️ Peta Interaktif: Menampilkan wilayah dengan marker dan layer yang mudah dinavigasi.
@@ -52,8 +58,7 @@ Menghubungkan ke API eksternal (misal: API Cuaca).
 
 Mensimulasikan perubahan rute berdasarkan data cuaca atau hambatan real-time.
 
-📸 Preview
-[![Tampilan Peta Drone](https://github.com/Gayoyo/-Noken-Terbang/blob/main/public/Preview.png?raw=true)](https://gayoyo.github.io/Noken-Terbang/)
+
 
 🛠️ Teknologi yang Digunakan
 
@@ -71,7 +76,6 @@ npm install
 
 # Jalankan proyek secara lokal
 npm start
-
 
 
 🧭 Visi Proyek
