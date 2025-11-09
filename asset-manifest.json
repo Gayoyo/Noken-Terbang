@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Noken-Terbang/static/css/main.ecc5c042.css",
+    "main.js": "/Noken-Terbang/static/js/main.4c8daf08.js",
+    "static/js/453.d91f45fb.chunk.js": "/Noken-Terbang/static/js/453.d91f45fb.chunk.js",
+    "index.html": "/Noken-Terbang/index.html",
+    "main.ecc5c042.css.map": "/Noken-Terbang/static/css/main.ecc5c042.css.map",
+    "main.4c8daf08.js.map": "/Noken-Terbang/static/js/main.4c8daf08.js.map",
+    "453.d91f45fb.chunk.js.map": "/Noken-Terbang/static/js/453.d91f45fb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ecc5c042.css",
+    "static/js/main.4c8daf08.js"
+  ]
+}
