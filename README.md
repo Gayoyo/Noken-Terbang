@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+🛰️ Noken Terbang Map
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Noken Terbang Map adalah proyek visualisasi peta interaktif yang menampilkan jalur dan area operasi drone di wilayah pedalaman Papua. Aplikasi ini dirancang untuk membantu pemetaan, perencanaan rute pengiriman udara, dan eksplorasi wilayah menggunakan antarmuka berbasis peta yang intuitif dan futuristik.
 
-## Available Scripts
 
-In the project directory, you can run:
+🌐 Live Demo: Noken Terbang Map (https://gayoyo.github.io/Noken-Terbang/) 
 
-### `npm start`
+📸 Preview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[![Tampilan Peta Drone](https://github.com/Gayoyo/-Noken-Terbang/blob/main/public/Preview.png?raw=true)](https://gayoyo.github.io/Noken-Terbang/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🚀 Fitur Utama
 
-### `npm run build`
+🗺️ Peta Interaktif: Menampilkan wilayah dengan marker dan layer yang mudah dinavigasi.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+✈️ Simulasi Jalur Drone: Menunjukkan jalur potensial untuk pengiriman atau survei.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🌍 Zoom & Navigasi Dinamis: Pengguna dapat memperbesar, memperkecil, dan menjelajah area dengan mudah.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+💡 Desain Minimalis: Tampilan bersih dengan fokus pada pengalaman pengguna dan visualisasi data geografis.
 
-### `npm run eject`
+🧠 Konsep Proyek
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+"Membawa inovasi teknologi drone untuk membantu konektivitas wilayah terpencil di Papua.” 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Proyek ini menggambarkan konsep drone transportasi ringan yang mampu mengantarkan kebutuhan logistik kecil menggunakan sistem pemetaan digital. Ini adalah langkah awal menuju software tower control terpusat.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🗺️ Roadmap Masa Depan
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Proyek ini akan dikembangkan secara bertahap:
 
-## Learn More
+[ ✅ ] Tahap 1: Visualisasi (Selesai)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Render peta interaktif (Leaflet).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Menampilkan jalur dan marker statis.
 
-### Code Splitting
+Deployment ke GitHub Pages.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[ 🔲 ] Tahap 2: Simulasi Dinamis
 
-### Analyzing the Bundle Size
+Membuat marker drone bergerak di sepanjang jalur yang ditentukan.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Menambahkan dashboard sederhana (status drone, ketinggian, kecepatan).
 
-### Making a Progressive Web App
+[ 🔲 ] Tahap 3: AI Pathfinding
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Integrasi algoritma routing (seperti A* atau Dijkstra).
 
-### Advanced Configuration
+Membuat backend sederhana untuk menghitung rute terpendek/teraman (menghindari zona merah) secara otomatis.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+[ 🔲 ] Tahap 4: Integrasi Data Real-time
 
-### Deployment
+Menghubungkan ke API eksternal (misal: API Cuaca).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Mensimulasikan perubahan rute berdasarkan data cuaca atau hambatan real-time.
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+🛠️ Teknologi yang Digunakan
+
+TeknologiDeskripsi⚛️ React.jsFramework utama untuk membangun antarmuka peta🗺️ Leaflet.jsLibrary peta open-source untuk visualisasi geospasial🚀 gh-pagesUntuk melakukan deployment otomatis ke GitHub Pages💻 JavaScript (ES6)Bahasa utama pengembangan logika aplikasi🎨 CSS3Untuk tampilan antarmuka yang bersih dan modern📦 Cara Menjalankan Proyek di Lokal 
+
+```bash
+# Clone repository
+git clone https://github.com/Gayoyo/-Noken-Terbang.git
+
+# Masuk ke folder proyek
+cd noken-terbang-map
+
+# Install dependencies
+npm install
+
+# Jalankan proyek secara lokal
+npm start
+
+
+🧭 Visi Proyek
+Menjadi solusi pemetaan berbasis drone yang bisa digunakan untuk:
+Distribusi logistik pedalaman
+Pemetaan wilayah non-terjangkau
+Dukungan transportasi udara masa depan  depan
+
+👤 Author
+Made by Gayoyo
+💬 “Teknologi yang terbang dari ide — menuju kenyataan.”
+
+📜 Lisensi
+Proyek ini bersifat Open Source dan bebas digunakan untuk keperluan pendidikan atau riset.
+Lisensi: LICENSE
